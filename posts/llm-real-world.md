@@ -3,7 +3,7 @@ title: From Toy LLM Demo to Production System: What Actually Breaks in the Real 
 date: 2025-12-18
 tags: [llms, evaluation, prompting, systems design]
 excerpt: |
-  An honest look at why student LLM projects—and even many startup demos—crash and burn in real-world use. Hint: It's not the model, it's everything else.
+  An honest look at why student LLM projects-and even many startup demos-crash and burn in real-world use. Hint: It's not the model, it's everything else.
 ---
 
 ## I Broke My Own Demo. Here’s What Happened.
@@ -55,7 +55,7 @@ async function callLLM({ prompt, schema, maxRetries = 2 }) {
 ```
 
 **Why bother?**
-- Enforces the *model, temperature, and token budget*—no mystery runs.
+- Enforces the *model, temperature, and token budget*-no mystery runs.
 - Logs latency so future-me can actually debug slow calls.
 - Validates output (with Zod or similar), not just “hope it looks right.”
 
