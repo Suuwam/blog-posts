@@ -27,7 +27,7 @@ If you treat your prompt like an API contract, you start to think about:
 #### What Works (in My Experience):
 
 **1. Stable System Prompt as "Contract"**  
-I now write one system prompt per feature—*never* in-line-in-code.  
+I now write one system prompt per feature-*never* in-line-in-code.  
 It’s the “rules of the road” for the model: tone, allowed actions, hard constraints.
 
 **2. Tiny, Swappable Task Prompts**  
@@ -50,4 +50,4 @@ It took a week to refactor and add actual contracts & output checks, but we neve
 
 ---
 
-**Lesson:** Treat prompts as living, documented, versioned contracts—just like APIs. Lives (and sleep cycles) will be saved!
+**Lesson:** Treat prompts as living, documented, versioned contracts-just like APIs. Lives (and sleep cycles) will be saved!
