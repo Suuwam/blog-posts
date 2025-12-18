@@ -20,7 +20,7 @@ Let me be real: I used to treat class ML projects like school essays. Write some
 
 ### My Personal Wake-Up Call
 
-I'll never forget trying to run a student's sentiment classifier. The README said "pip install -r requirements.txt" but somehow it pulled in torch 1.6 for Python 3.11, and nothing worked. The student was shocked ("but it worked last night!"). I was sympathetic—I’ve been there—so I gave feedback. Next round, the same errors.
+I'll never forget trying to run a student's sentiment classifier. The README said "pip install -r requirements.txt" but somehow it pulled in torch 1.6 for Python 3.11, and nothing worked. The student was shocked ("but it worked last night!"). I was sympathetic-I’ve been there-so I gave feedback. Next round, the same errors.
 
 At that point, I realized **I’d made all those same mistakes myself.**
 
@@ -28,7 +28,7 @@ At that point, I realized **I’d made all those same mistakes myself.**
 
 #### 1. **Do Less, Better**
 
-Student (and hackathon) brains love *ambitious* ideas. But big ideas die on Windows-vs-Linux, CUDA, or "I haven't finished the front end yet." The best portfolio piece is a *small, finished, working* thing—bonus if you can demo it on a fresh laptop in 2 minutes.  
+Student (and hackathon) brains love *ambitious* ideas. But big ideas die on Windows-vs-Linux, CUDA, or "I haven't finished the front end yet." The best portfolio piece is a *small, finished, working* thing-bonus if you can demo it on a fresh laptop in 2 minutes.  
 
 #### 2. **README for “Future Stranger-You”**
 
@@ -52,7 +52,7 @@ Skip the “just business” language. Instead, explain:
 - What surprised you in the results?
 - What would you do differently now?
 
-When you write this as a narrative, you sound like someone who *actually learned*—and that's memorable.
+When you write this as a narrative, you sound like someone who *actually learned*-and that's memorable.
 
 #### 5. **The Interview Test**
 
