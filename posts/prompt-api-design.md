@@ -1,53 +1,35 @@
 ---
-title: Prompt Engineering is Just API Design With Worse Tooling
+title: Winning Relay Hack X Aqore – Building Real Staffing Software
 date: 2025-11-05
-tags: [prompting, apis, product]
+tags: [hackathon, staffing-software, sql, teamwork, nepal]
 excerpt: |
-  Prompts aren't magic, they're messy contracts. Here’s why treating prompts like you treat APIs saves you (and your teammates) headaches.
+  Our team won the Relay Hack X Aqore hackathon by solving a real staffing problem-candidate screening and shortlisting-using a database-driven, enterprise-style approach.
 ---
 
-## If an API Looked Like Most Prompts...
+## Relay Hack X Aqore - Hackathon Win
 
-I'll confess: I used to "prompt engineer" by throwing instructions into a long string until it looked like a ransom letter.  
-- "Assume you're an expert in X."  
-- "Be concise, but also detailed."  
-- "Give JSON unless I say don't."  
-- "Unless the date is Thursday, don't use jokes."  
-- ...and the result: chaos.
+I’m excited to announce that our team secured victory at the **Relay Hack X Aqore Hackathon**, hosted at **Techspire College**. Working alongside my talented teammates **Nischal Panta** and **Safal Lohani**, we took on the **Staffing Software Innovation Challenge**-a domain that’s widely adopted globally but still emerging in Nepal.
 
-When I worked with a team on a real product, this fell apart. Prompts broke at the worst times, updates for one edge case made three others worse, and onboarding new devs was…painful.
+### What We Built
 
-### API Perspective: What Changed For Me
+Our subsystem focused on **Candidate Screening & Shortlisting**, one of the most critical pain points in the staffing lifecycle.  
+We designed a **database-driven solution** that streamlines how candidates are matched with the right opportunities—practical, scalable, and grounded in real-world hiring workflows.
 
-If you treat your prompt like an API contract, you start to think about:
-- **Versioning:** When you change the prompt, is it backwards compatible?  
-- **Inputs/Outputs:** Is the structure clear, or vibe-based and brittle?  
-- **Tests:** Can new devs (or future-you) check that outputs are actually right?  
+### What We Learned
 
-#### What Works (in My Experience):
+This hackathon went far beyond just coding:
 
-**1. Stable System Prompt as "Contract"**  
-I now write one system prompt per feature-*never* in-line-in-code.  
-It’s the “rules of the road” for the model: tone, allowed actions, hard constraints.
+- Hands-on exposure to **real enterprise staffing workflows**
+- Solution design using **MS SQL Server**
+- **JSON-based stored procedures** to handle business logic cleanly
+- Clear understanding of the **end-to-end staffing lifecycle**-from client acquisition to payroll
 
-**2. Tiny, Swappable Task Prompts**  
-Think of the user or per-request part as the "input" to a function.  
-Keep it dead simple, e.g. "Summarize this text for a six-year-old."
+The challenge forced us to think like **software engineers solving actual industry problems**, balancing technical decisions with business constraints.
 
-**3. Output Format = Schema (Declared Up Front)**  
-Now I show the model *real* output examples (JSON, markdown, table) right in the prompt.  
-If you don’t, you will regret it. Models hallucinate structure if you rely on “please, emit JSON.”  
-Pro-tip: If possible, validate responses with a schema (use zod in TS, pydantic in Python, etc) and let the model self-correct.
+### Acknowledgement
 
-### A Real Painful Story
-
-We once built a chatbot where the prompt was patched and tuned by at least three different engineers over two months.  
-- No one “owned” the schema.
-- Nobody knew what the actual default instructions were.
-- Bugs crept in: date formatting, persona slipped from helpful to passive-aggressive, output started switching from markdown to HTML at random.
-
-It took a week to refactor and add actual contracts & output checks, but we never had the weirdest bugs after that.
+Grateful to **Relay Hack**, **Aqore Nepal**, and **Techspire College** for creating an environment that prioritizes real learning over gimmicks. Looking forward to applying these insights in future projects.
 
 ---
 
-**Lesson:** Treat prompts as living, documented, versioned contracts-just like APIs. Lives (and sleep cycles) will be saved!
+#Hackathon #TechInnovation #StaffingSoftware #TeamWork #TechspireCollege #RelayHack #DatabaseDevelopment #Nepal #TechCommunity #SQLServer
